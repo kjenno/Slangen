@@ -1,9 +1,5 @@
-
-
-woord = ''
-a = len(woord)
-while woord:
-
-    a -= 1
-
-    print(woord[a])
+A = 'test woord'
+i = len(A)
+while i:
+    i -= 1
+    print(A[i],end='')
