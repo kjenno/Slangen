@@ -1,3 +1,3 @@
-for number in range(0, 100, 10):
-    print("nummer", number + 10)
+for number in range(0, 200, 10):
+    print("nummer", number + 0)
 
