@@ -1,8 +1,8 @@
 A = input("leeftijd:")
-B = 18
+
 A = int(A)
-if A > B:
+if A > 18:
     print("je mag rijden")
 
-if A < B:
+if A < 18:
     print("je mag niet rijden")
