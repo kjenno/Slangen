@@ -24,7 +24,7 @@
 # for i in range(len(arr)):
 #     print(arr[i], end=" ")
 
-import datetime
+# import datetime
 
-x = datetime.datetime.now()
-print(x)
+# x = datetime.datetime.now()
+# print(x)
