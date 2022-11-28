@@ -16,10 +16,10 @@ def bubbleSort(arr):
 
 
 
-arr = [64, 34, 25, 12, 22, 11, 90, 77, 66, 54, 35, 11]
+arrr = [64, 34, 25, 12, 22, 11, 90, 77, 66, 54, 35, 11]
 
-bubbleSort(arr)
+bubbleSort(arrr)
 
 print("Gesorteerd V:")
-for B in range(len(arr)):
-    print(arr[B], end=" ")
+for B in range(len(arrr)):
+    print(arrr[B], end=" ")

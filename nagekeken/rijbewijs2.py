@@ -9,7 +9,10 @@ A = date(year, month, day)
 B = date.today()
 C = A - B
 D = C.days
-if D > -6575:
-    print("je mag niet rijden")
-if D < -6575:
-    print("je mag rijden")
+try:
+    if D > -6575:
+        print("je mag niet rijden")
+    else:
+        print("je mag rijden")
+except:
+    print("deze is fout")
